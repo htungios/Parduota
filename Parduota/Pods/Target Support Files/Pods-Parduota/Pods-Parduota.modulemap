@@ -1,0 +1,6 @@
+framework module Pods_Parduota {
+  umbrella header "Pods-Parduota-umbrella.h"
+
+  export *
+  module * { export * }
+}

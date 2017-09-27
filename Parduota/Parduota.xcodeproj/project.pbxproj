@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC08C3351F6ACF86000F37E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08C3341F6ACF86000F37E9 /* AppDelegate.swift */; };
-		CC08C3371F6ACF86000F37E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08C3361F6ACF86000F37E9 /* ViewController.swift */; };
-		CC08C33A1F6ACF86000F37E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08C3381F6ACF86000F37E9 /* Main.storyboard */; };
-		CC08C33C1F6ACF86000F37E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC08C33B1F6ACF86000F37E9 /* Assets.xcassets */; };
-		CC08C33F1F6ACF86000F37E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08C33D1F6ACF86000F37E9 /* LaunchScreen.storyboard */; };
+		17128BC186F73F9E87647A08 /* Pods_Parduota.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D72E80A0BE45D07EC7941E /* Pods_Parduota.framework */; };
+		CC08C34E1F6AD802000F37E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08C34C1F6AD802000F37E9 /* AppDelegate.swift */; };
+		CC08C34F1F6AD802000F37E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC08C34D1F6AD802000F37E9 /* Info.plist */; };
+		CC08C35C1F6AD8B3000F37E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08C3581F6AD8B3000F37E9 /* LaunchScreen.storyboard */; };
+		CC08C35D1F6AD8B3000F37E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08C35A1F6AD8B3000F37E9 /* Main.storyboard */; };
+		CC08C3611F6AD911000F37E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC08C3601F6AD911000F37E9 /* Assets.xcassets */; };
+		CC08C3641F6ADDBA000F37E9 /* PABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08C3631F6ADDBA000F37E9 /* PABaseViewController.swift */; };
+		CC08C3661F6ADE29000F37E9 /* PABaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08C3651F6ADE29000F37E9 /* PABaseTableViewController.swift */; };
+		CCD1CC8E1F6BDCBF00323D49 /* PABaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1CC8D1F6BDCBF00323D49 /* PABaseDataModel.swift */; };
+		CCD1CC901F6BDD5100323D49 /* PAUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1CC8F1F6BDD5100323D49 /* PAUserModel.swift */; };
+		CCD1CC951F6C17E700323D49 /* PAConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1CC941F6C17E700323D49 /* PAConstant.swift */; };
+		CCD1CC981F6C24F500323D49 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1CC971F6C24F500323D49 /* R.generated.swift */; };
+		CCD1CC9B1F6C25B200323D49 /* PALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1CC9A1F6C25B200323D49 /* PALoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86D72E80A0BE45D07EC7941E /* Pods_Parduota.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parduota.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92366B6ABCF8E1A080DE53F5 /* Pods-Parduota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parduota.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parduota/Pods-Parduota.debug.xcconfig"; sourceTree = "<group>"; };
+		AC76AED09D306A448506CDCD /* Pods-Parduota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parduota.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parduota/Pods-Parduota.release.xcconfig"; sourceTree = "<group>"; };
 		CC08C3311F6ACF86000F37E9 /* Parduota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parduota.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC08C3341F6ACF86000F37E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC08C3361F6ACF86000F37E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC08C3391F6ACF86000F37E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC08C33B1F6ACF86000F37E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC08C33E1F6ACF86000F37E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC08C3401F6ACF86000F37E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC08C34C1F6AD802000F37E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC08C34D1F6AD802000F37E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC08C3591F6AD8B3000F37E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC08C35B1F6AD8B3000F37E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC08C3601F6AD911000F37E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC08C3631F6ADDBA000F37E9 /* PABaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PABaseViewController.swift; sourceTree = "<group>"; };
+		CC08C3651F6ADE29000F37E9 /* PABaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PABaseTableViewController.swift; sourceTree = "<group>"; };
+		CCD1CC8D1F6BDCBF00323D49 /* PABaseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PABaseDataModel.swift; sourceTree = "<group>"; };
+		CCD1CC8F1F6BDD5100323D49 /* PAUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAUserModel.swift; sourceTree = "<group>"; };
+		CCD1CC941F6C17E700323D49 /* PAConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAConstant.swift; sourceTree = "<group>"; };
+		CCD1CC971F6C24F500323D49 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		CCD1CC9A1F6C25B200323D49 /* PALoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PALoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17128BC186F73F9E87647A08 /* Pods_Parduota.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DD3D4E2E7D06C8836E626DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92366B6ABCF8E1A080DE53F5 /* Pods-Parduota.debug.xcconfig */,
+				AC76AED09D306A448506CDCD /* Pods-Parduota.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96A8E86F5025A259A2788D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D72E80A0BE45D07EC7941E /* Pods_Parduota.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC08C3281F6ACF86000F37E9 = {
 			isa = PBXGroup;
 			children = (
 				CC08C3331F6ACF86000F37E9 /* Parduota */,
 				CC08C3321F6ACF86000F37E9 /* Products */,
+				5DD3D4E2E7D06C8836E626DE /* Pods */,
+				96A8E86F5025A259A2788D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,108 @@
 		CC08C3331F6ACF86000F37E9 /* Parduota */ = {
 			isa = PBXGroup;
 			children = (
-				CC08C3341F6ACF86000F37E9 /* AppDelegate.swift */,
-				CC08C3361F6ACF86000F37E9 /* ViewController.swift */,
-				CC08C3381F6ACF86000F37E9 /* Main.storyboard */,
-				CC08C33B1F6ACF86000F37E9 /* Assets.xcassets */,
-				CC08C33D1F6ACF86000F37E9 /* LaunchScreen.storyboard */,
-				CC08C3401F6ACF86000F37E9 /* Info.plist */,
+				CC08C3461F6AD7D3000F37E9 /* Application */,
+				CC08C3471F6AD7D3000F37E9 /* Controllers */,
+				CC08C3481F6AD7D3000F37E9 /* Models */,
+				CC08C3491F6AD7D3000F37E9 /* Resources */,
+				CC08C34A1F6AD7D3000F37E9 /* Utilities */,
+				CC08C34B1F6AD7D3000F37E9 /* View */,
 			);
 			path = Parduota;
+			sourceTree = "<group>";
+		};
+		CC08C3461F6AD7D3000F37E9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CC08C34C1F6AD802000F37E9 /* AppDelegate.swift */,
+				CC08C34D1F6AD802000F37E9 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CC08C3471F6AD7D3000F37E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC08C3621F6ADDA2000F37E9 /* Base */,
+				CCD1CC991F6C259400323D49 /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC08C3481F6AD7D3000F37E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1CC8D1F6BDCBF00323D49 /* PABaseDataModel.swift */,
+				CCD1CC8F1F6BDD5100323D49 /* PAUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC08C3491F6AD7D3000F37E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1CC911F6C177100323D49 /* Core */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC08C34A1F6AD7D3000F37E9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CC08C34B1F6AD7D3000F37E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC08C35F1F6AD911000F37E9 /* Images */,
+				CC08C3501F6AD832000F37E9 /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC08C3501F6AD832000F37E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CC08C3581F6AD8B3000F37E9 /* LaunchScreen.storyboard */,
+				CC08C35A1F6AD8B3000F37E9 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CC08C35F1F6AD911000F37E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CC08C3601F6AD911000F37E9 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CC08C3621F6ADDA2000F37E9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CC08C3631F6ADDBA000F37E9 /* PABaseViewController.swift */,
+				CC08C3651F6ADE29000F37E9 /* PABaseTableViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CCD1CC911F6C177100323D49 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1CC971F6C24F500323D49 /* R.generated.swift */,
+				CCD1CC941F6C17E700323D49 /* PAConstant.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CCD1CC991F6C259400323D49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1CC9A1F6C25B200323D49 /* PALoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +202,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC08C3431F6ACF86000F37E9 /* Build configuration list for PBXNativeTarget "Parduota" */;
 			buildPhases = (
+				54738EEAD4C1B8B2B0931896 /* [CP] Check Pods Manifest.lock */,
+				CCD1CC961F6C23C500323D49 /* Run Script */,
 				CC08C32D1F6ACF86000F37E9 /* Sources */,
 				CC08C32E1F6ACF86000F37E9 /* Frameworks */,
 				CC08C32F1F6ACF86000F37E9 /* Resources */,
+				FEC49EC6644F32BA0EA59B9B /* [CP] Embed Pods Frameworks */,
+				B2BBDDBF1EF6AF9FEED86370 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +225,7 @@
 		CC08C3291F6ACF86000F37E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PA;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = None;
@@ -123,41 +259,126 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC08C33F1F6ACF86000F37E9 /* LaunchScreen.storyboard in Resources */,
-				CC08C33C1F6ACF86000F37E9 /* Assets.xcassets in Resources */,
-				CC08C33A1F6ACF86000F37E9 /* Main.storyboard in Resources */,
+				CC08C35C1F6AD8B3000F37E9 /* LaunchScreen.storyboard in Resources */,
+				CC08C34F1F6AD802000F37E9 /* Info.plist in Resources */,
+				CC08C3611F6AD911000F37E9 /* Assets.xcassets in Resources */,
+				CC08C35D1F6AD8B3000F37E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54738EEAD4C1B8B2B0931896 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parduota-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2BBDDBF1EF6AF9FEED86370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parduota/Pods-Parduota-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD1CC961F6C23C500323D49 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/Parduota/Resources/Core\"";
+		};
+		FEC49EC6644F32BA0EA59B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Parduota/Pods-Parduota-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parduota/Pods-Parduota-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC08C32D1F6ACF86000F37E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC08C3371F6ACF86000F37E9 /* ViewController.swift in Sources */,
-				CC08C3351F6ACF86000F37E9 /* AppDelegate.swift in Sources */,
+				CCD1CC901F6BDD5100323D49 /* PAUserModel.swift in Sources */,
+				CCD1CC981F6C24F500323D49 /* R.generated.swift in Sources */,
+				CC08C3641F6ADDBA000F37E9 /* PABaseViewController.swift in Sources */,
+				CC08C34E1F6AD802000F37E9 /* AppDelegate.swift in Sources */,
+				CC08C3661F6ADE29000F37E9 /* PABaseTableViewController.swift in Sources */,
+				CCD1CC951F6C17E700323D49 /* PAConstant.swift in Sources */,
+				CCD1CC8E1F6BDCBF00323D49 /* PABaseDataModel.swift in Sources */,
+				CCD1CC9B1F6C25B200323D49 /* PALoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CC08C3381F6ACF86000F37E9 /* Main.storyboard */ = {
+		CC08C3581F6AD8B3000F37E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC08C3391F6ACF86000F37E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC08C33D1F6ACF86000F37E9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC08C33E1F6ACF86000F37E9 /* Base */,
+				CC08C3591F6AD8B3000F37E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CC08C35A1F6AD8B3000F37E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC08C35B1F6AD8B3000F37E9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,9 +481,10 @@
 		};
 		CC08C3441F6ACF86000F37E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92366B6ABCF8E1A080DE53F5 /* Pods-Parduota.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Parduota/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Parduota/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = None.Parduota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +494,10 @@
 		};
 		CC08C3451F6ACF86000F37E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC76AED09D306A448506CDCD /* Pods-Parduota.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Parduota/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Parduota/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = None.Parduota;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +524,7 @@
 				CC08C3451F6ACF86000F37E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
